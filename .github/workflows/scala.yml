@@ -10,7 +10,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    container: hseeberger/scala-sbt:11.0.10_1.4.7_2.13.5
+    container: hseeberger/scala-sbt:11.0.10_1.4.7_2.13.6
 
     steps:
     - uses: actions/checkout@v2
